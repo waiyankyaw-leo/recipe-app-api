@@ -1,0 +1,4 @@
+//This command involves using Docker Compose to create a new Django app named "core" within a running container.
+docker-compose run --rm app sh -c "python manage.py startapp core"
+
+
